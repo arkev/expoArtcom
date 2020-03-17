@@ -1,0 +1,339 @@
+/**
+* CSS for ‘registro’ page (currently index.php)
+* 
+* @author Robert Valencia  - http://robertvalencia.com
+* @version 1
+* @copyright Copyright ©2011 Robert Valencia - Distributed under a (cc) Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) License http://creativecommons.org/licenses/by-sa/3.0/
+*/
+
+
+/**
+* Webfonts available
+* 
+* @webfont M1cthin
+* @webfont M1clight
+* @webfont M1cregular
+* @webfont M1cmedium
+* @webfont M1cbold
+* @webfont M1cheavy
+* @webfont M1cblack
+* @webfont DekarRegular
+* @webfont DekarLightRegular
+* 
+* COLORS
+* @colorset #2073C3; rich blue
+*/
+
+/*
+INDEX.PHP
+*/
+body{font-size: 100%;margin: .625em;padding: 0;line-height: 1.5;}
+header p{font-family: "DekarLightRegular", "HelveticaNeue-UltraLight", Helvetica, sans-serif;font-size: 1.7em;font-weight: normal;line-height: 1; margin-top:0; /*margin-left: 10px;*/}
+header p .year{font-family: "DekarRegular",sans-serif;font-size: .7em;letter-spacing: .15em;}
+header p .semester:before{content:'· ';font-family: "HelveticaNeue-UltraLight", sans-serif;font-weight: normal;font-size: .8em;}
+#container{margin: 0 auto;width: 45em;}
+footer p{font: .6875em Arial,Helvetica, sans-serif;color: #AAA;}
+
+h1{font-family: "Dekar-Light", Palatino, Helvetica, sans-serif;font-size: 3.5em;margin:1em auto 0;letter-spacing: .1em;text-shadow:;font-weight: normal;}
+h2 {
+  font: normal normal bold 1.25em Arial, Helvetica, sans-serif;
+/*  color: #7C55FF;*/
+color:#36617E;
+  padding-top: 3em;
+  margin-top: 3em;
+  border-top: 1px solid #F0F0F0;
+}
+h2#sube_documentos{border-top:none;margin-top: 0;}
+
+label, th, legend{font: .8125em Arial, Helvetica, sans-serif;color:#333;}
+legend{padding: 0 .3em;}
+input[type=text]{font: 1.3em "Lucida Grande", sans-serif;font-weight: bold;color:#3F3F3F;padding:.2em .2em;width: 27.16346153846153846153em ;/*565px*/}
+form{margin-top: 1em;}
+.tdlabel, th{width: 120px;text-align: right;padding-right: .5em;}
+select{}
+input[type=submit]{
+  width:100%;
+  height: 32px;
+  margin: 20px auto 50px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  padding: 7px 12px;
+  border: 0;
+  overflow: hidden;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: #EEE;
+/*  background: #3D3D3D;*/
+background:
+  -webkit-gradient(
+          linear,right bottom,right top,
+          color-stop(0.95, rgba(102,45,145,1)),
+          color-stop(0.05, rgba(168,33,187,1))
+      );
+/* css3 */
+-webkit-border-radius:6px;
+   -moz-border-radius:6px;
+        border-radius:6px;}
+
+input[type=submit]:before{content:""; display:block; position:absolute; z-index:-1; top:50%; left:0; right:0; bottom:0; background:#d3d3d3;
+/* css3 */
+-webkit-border-radius:0 0 6px 6px;
+   -moz-border-radius:0 0 6px 6px;
+        border-radius:0 0 6px 6px;}
+input[type=submit]:after{content:"\00bb"; padding-left:5px;}
+input[type=submit]:hover,
+input[type=submit]:focus,
+input[type=submit]:active {
+  color: #fff;
+/*  background: #ec6196;*/
+background:
+-webkit-gradient(
+        linear,right bottom,right top,
+        color-stop(0.05, rgba(255,36,59,1)),
+        color-stop(0.95, rgba(168,33,187,1))
+    );
+}
+input[type=submit]:hover:before{background: #ea4c88;}
+
+::-webkit-input-placeholder  { color:#E6E6E6; }
+input:-moz-placeholder { color:#E6E6E6; }
+.bidimensional td, .tridimensional td, .temporal td{text-align: center;}
+/*.bidimensional label, .tridimensional label, .temporal label{display: none;}*/
+.bidimensional input, .tridimensional input, .temporal input{font-size: 1em;font-weight: bold;font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;width: 2em;padding: .2em 0;}
+/*input:after{content:"choncha";position:absolute;z-index:-1;bottom:30px;width:195px;height:230px;color:black;}
+*/
+.hint{font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;font-size: 11px;}
+.selectbuttontd{}
+.bidimensional .times:before, .tridimensional .times:before{content:" ";}
+.bidimensional .times:after, .tridimensional .times:after{content:" ";}
+.bidimensional .times_last:before, .tridimensional .times_last:before{content:" ";}
+.bidimensional .times_last:after, .tridimensional .times_last:after{content:" ";}
+.middle_characters{vertical-align:top;}
+.selectbuttontd{vertical-align:top;padding-top: .2em;}
+.temporal .times:before{content:" ";}
+.temporal .times:after{content:" ";}
+.temporal .times_last:before{content:" ";}
+.temporal .times_last:after{content:" ";}
+.bold{font-size: 1.4em;}
+.ui-dialog-title{color:red;}
+
+
+/**
+* Form elements
+*/
+.instrucciones{font: 1em/1.5  "M1cregular", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;color: #333353;}
+tr{padding: 1em;display: block;}
+
+/**
+* FILE UPLOAD
+*/
+#file_upload{margin-top: 2em;}
+#file_upload div{}
+
+/**
+* UPLOAD FORM (archivos digitales, de evidencia de la pieza)
+*/
+.file_upload {
+  position: relative;
+  overflow: hidden;
+  direction: ltr;
+  cursor: pointer;
+  text-align: center;
+  color: #F2F2F2;
+  font-weight: bold;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+/*  width: 200px;*/
+/*  height: 30px;*/
+  line-height: 1.875;
+  width: 14.5em;
+  height: 1.875em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  margin: 0 auto;
+  background: 
+  -webkit-gradient(
+      linear,right bottom,right top,
+      color-stop(0.95, rgba(102,45,145,1)),
+      color-stop(0.05, rgba(168,33,187,1))
+    );
+}
+
+.file_upload_small {
+/*  width: 200px;*/
+/*  height: 30px;*/
+/*  line-height: 30px;*/
+  line-height: 1.875;
+  width: 14.5em;
+  height: 1.875em;
+  font-size: auto;
+  background: 
+  -webkit-gradient(
+      linear,right bottom,right top,
+      color-stop(0.95, rgba(102,45,145,1)),
+      color-stop(0.05, rgba(168,33,187,1))
+    );
+}
+
+.file_upload_large {
+  width: 100%;
+  height: 150px;
+  line-height: 150px;
+  font-size: 2em;
+/*  font-size: 20px;*/
+  background: 
+  -webkit-gradient(
+      linear,right bottom,right top,
+      color-stop(0.95, rgba(102,45,145,1)),
+      color-stop(0.05, rgba(168,33,187,1))
+    );
+}
+
+.file_upload_highlight {
+  background:   -webkit-gradient(
+                linear,right bottom,right top,
+                color-stop(0.95, rgba(217,224,33,1)),
+                color-stop(0.05, rgba(0,255,0,1))
+            );
+  color: rgb(102,45,145);
+/*  padding-bottom: 10em;*/
+}
+
+
+.file_upload input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  border: 300px solid transparent;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  filter: alpha(opacity=0);
+  -o-transform: translate(-300px, -300px) scale(10);
+  -moz-transform: translate(-800px, 0) scale(10);
+  cursor: pointer;
+}
+
+.file_upload iframe, .file_upload button {
+  display: none;
+}
+
+.file_upload_preview img {
+  width: 80px;
+}
+
+.file_upload_progress .ui-progressbar-value {
+/*  background: url(images/pbar-ani.gif);*/
+rgb(0,255,0);height: 15px;
+/**
+* new properties by bertobox
+*/
+
+}
+
+.file_upload_progress div {
+  width: 150px;
+  height: 15px;
+  /**
+  *new properties by bertobox
+  */
+  background-color: rgba(220,220,220,0.5);margin: 1em 0;
+}
+
+.file_upload_cancel button {
+  cursor: pointer;
+}
+
+
+/**
+* AUTORES
+*/
+.textboxlist { width: 62em;}
+#autorRow{padding:1em 0;}
+
+
+.selector span{font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;}
+.selector{ width: 40em;}
+
+
+/**
+* Categorías para la premiación {otoño 2011 only, hopefully}
+*/
+fieldset{border: 1px solid #999;}
+
+/**
+* Descripción general de la pieza
+*/
+textarea{width: 25em;height: 10em;}
+
+
+/**
+* ESPECIFICACIONES de la pieza
+* 
+* This is a tab that the user selects, depending on how it applies to their piece. 
+* 
+* Bidimensional
+* Tridimensional
+* Multimedia
+* Otro
+* 
+* jQuery UI Tabs 1.8.9
+* http://docs.jquery.com/UI/Tabs#theming
+*/
+
+
+#tabs.ui-tabs{
+  -webkit-border-radius: 0;
+  border: none;
+  }
+#tabs .ui-tabs-nav {
+  width: 100%;
+  float: left;
+/*  font-size: small;*/
+  margin: 0 auto;
+/*  padding: 0 10px 0 10px;*/
+  border: none;
+  border-bottom: 1px solid #333;
+  -webkit-border-radius: 0;
+  background: none;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+#tabs ul.ui-tabs-nav li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style: none;
+  -webkit-border-radius: 0;
+  border: 0;
+}
+#tabs ul.ui-tabs-nav li.ui-state-active a{
+  border-bottom:4px solid #333 !important;
+/*  background:#E6F1F9;*/
+/*  -webkit-border-radius:3px;*/
+/*  padding: 1em;*/
+/*  padding-bottom: 2px;*/
+  color: #333;
+  
+}
+#tabs .ui-state-default{
+  background: none;
+}
+#tabs ul.ui-tabs-nav li a:link, #tabs ul.ui-tabs-nav li a:visited{float:left;font-size:85%;line-height:20px;font-weight:bold;margin:0 10px 0 10px;text-decoration:none;color:#999;}
+#tabs ul.ui-tabs-nav li a.active:link, #tabs ul.ui-tabs-nav li a.active:visited, #tabs ul.ui-tabs-nav li a.active:hover{border-bottom:4px solid #333;padding-bottom:2px;color:#333;}
+#tabs div.ui-tabs-panel{}
+#tabs table{margin: 1.875em auto;}
+#tabs-4 input{width: 20em;}
+
+/**
+* Guardar button
+*/
+#guardar{width: 25em;height: 4em;margin: 0 auto 5em;}
+#guardar input{height: 100%;font-size: 2em;cursor: pointer;
+}
+
+span.profesor{display:block;float:left;margin-right:5px;background-color:limegreen;padding:2px;font-size:8px;}
+

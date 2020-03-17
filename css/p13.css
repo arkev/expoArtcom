@@ -1,0 +1,32 @@
+/*
+
+Estilos para el diseño de la UI de la EXPO ARTCOM Primavera 2013
+
+@author: Robert Valencia
+
+
+COLORES
+---------------
+azul:
+rgba(16,179,205,1)
+
+celeste:
+rgba(136,211,227,1)
+
+rojo:
+rgba(232,49,37,1)
+
+mamey:
+rgba(243,117,96,1)
+
+
+Reproductor de video
+--------------------
+.vjs-default-skin { color: #d4d4d4 }
+.vjs-play-progress, .vjs-volume-level { background-color: #119db0 }
+.vjs-control-bar, .vjs-big-play-button { background: rgba(255,255,255,0.31) }
+.vjs-slider { background: rgba(255,255,255,0.10333333333333333) }
+.vjs-control-bar { font-size: 193% }
+
+
+*/

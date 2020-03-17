@@ -1,0 +1,23 @@
+@import url('../webfonts/stylesheet.css');
+@import url("common.css");
+
+
+/*
+Author: Robert Valencia  http://robertvalencia.com
+
+*/
+
+
+/*
+preguntas.php
+*/
+
+#preguntas h2{border-top: none;padding: 0 !important;margin: 1em 0;}
+#preguntas #main p{font: 1em/1.5  "M1cregular", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;color: #333353;}
+#main{padding-bottom: 3em;}
+th{font-size: .76em;font-family: "M1cmedium",Arial, Helvetica, sans-serif;text-transform: uppercase;font-weight: normal;border-bottom: 1px solid #999;}
+td{font-size: .67em;font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;font-weight: normal;padding-right: 1em;}	
+fieldset{}
+#search{margin:0 0 1.4em 0;padding:.7em .5em .8em .9em;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background-color:rgba(111,111,111,.1);width:42.5em;}
+#search label{font-size:1em;font-family:"M1clight",Arial,Helvetica,sans-serif;font-weight:normal;padding-right:.5em;}
+input[type="text"]{width:29.1em;font-size:1.3em;padding-left:.2em;}

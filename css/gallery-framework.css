@@ -1,0 +1,28 @@
+/*body{background:limegreen}*/
+
+
+/* Mobile */
+@media screen and (max-device-width: 480px),screen and (max-width: 600px) {
+	/* iOS and Windows Mobile font-size changes make the robot cry and SMASH */
+	html{-ms-text-size-adjust:none;-webkit-text-size-adjust:none;}
+}
+/* Tablet */
+@media screen and (min-width: 600px), screen and (max-width: 800px){
+}
+/* Desktop */
+@media screen and (min-width: 800px) {
+	#main{width:20720px;position:absolute;}
+	.slide{font-size:180px;width:600px;float:left;border:1px solid black;min-height:200px;}
+	
+	.slide{opacity:0.5}
+	.slide.active{opacity:1}
+	.slide.last{visibility:hidden}
+	
+	
+/*	.slide:nth-child(1){background:#ccc}
+	.slide:nth-child(2){background:#bbb}
+	.slide:nth-child(3){background:#aaa}
+	.slide:nth-child(4){background:#999}
+	.slide:nth-child(5){background:#888}
+	.slide:nth-child(6){background:#777}
+*/}

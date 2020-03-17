@@ -1,0 +1,62 @@
+@import url('../webfonts/stylesheet.css');
+/*@import url('common.css');*/
+
+
+/**
+* MAIN AREAS: BODY HEADER, #CONTAINER, #MAIN, FOOTER
+*/
+
+
+html,
+body#xprmnt{width: 100%;margin: 0;padding: 0;}
+#xprmnt #container{width: auto;margin: 0;padding: 0;}
+#xprmnt #main{width: 1000px;margin: 0 auto;}
+
+footer p,
+header #nav{font: .6875em Arial,Helvetica, sans-serif;color: #AAA;}
+
+
+/**
+* PROJECT INFO DISPLAY
+*/
+  .slide .project-info{z-index: 500;position:relative;width: 360px;}
+  .slide .project-info h2{margin: 0;padding: 10px;font-weight: normal;font-family: "M1cregular",sans-serif;font-size: 1em;height: 3em;}
+  .slide .project-info h2 span{font-family: "M1clight", Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size: .8em;letter-spacing: .1em;}
+  .slide.active .project-info:hover h2{-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, .52);-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, .52);-box-shadow: 0px 1px 2px rgba(0, 0, 0, .52);}
+  .slide .project-info .meta{/*display: block;position:absolute;*/background:white;padding: 0 10px 10px 10px;border-bottom: 1px solid gray;-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, .52);-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, .52);-box-shadow: 0px 2px 2px rgba(0, 0, 0, .52);width: 340px;}
+  .slide.active .project-info:hover .meta{display: block;}
+  
+
+/*  .slide .project-info{z-index: 500;position:relative;width: 360px;}*/
+  
+  dl{margin: 0;padding-top: .5em;}
+  dt{font-family: "M1cregular",sans-serif;letter-spacing: .1em;color: #bbb;margin: 0;font-size: .625em;text-transform: uppercase;}
+  dd+dt{margin-top: 1em;}
+  /*  dt:hover{color: black;}*/
+  dt span{padding: .5em 3em .5em .5em ;background-color: #E6F0FF;border-radius:4px}
+  dd{margin-left: 0;color: #333;font-family: "M1cregular",sans-serif;font-size: .8125em;}
+  dd.titulo{font-size: 1.5em;margin: 0;line-height: 1.3;}
+  dd.autores{font-family: "M1cregular";}
+  dd.materia{}
+  /*  dd.materia:hover{color: #999;}*/
+  dd.specs{}
+  dd.description{}
+  .slide .socialnetworks{opacity:0}
+  .slide.active .socialnetworks{opacity:.6;padding-top: .5em;padding-bottom: .5em;text-align: right;}
+  .slide.active .socialnetworks:hover{opacity:1;}
+  .twitter-share-button{width: 118px;height: 20px;float: left;}
+  fb:like{float: left;height: 20px;}
+
+
+
+
+
+
+
+/**
+* MEDIA display
+*/
+
+
+img{border: 1px solid transparent;}
+img:hover{border: 1px solid rgba(222,222,222,.5);}
