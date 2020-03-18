@@ -1,0 +1,442 @@
+[
+	{
+		"code": "SY",
+		"zone_name": "Australia/Sydney"
+	},
+	{
+		"code": "SE",
+		"zone_name": "Asia/Seoul"
+	},
+	{
+		"code": "YO",
+		"zone_name": "Asia/Tokyo"
+	},
+	{
+		"code": "CC",
+		"zone_name": "Asia/Manila"
+	},
+	{
+		"code": "CD",
+		"zone_name": "Asia/Manila"
+	},
+	{
+		"code": "HK",
+		"zone_name": "Asia/Hong_Kong"
+	},
+	{
+		"code": "KU",
+		"zone_name": "Asia/Kuching"
+	},
+	{
+		"code": "MA",
+		"zone_name": "Asia/Manila"
+	},
+	{
+		"code": "MD",
+		"zone_name": "Asia/Makassar"
+	},
+	{
+		"code": "UB",
+		"zone_name": "Asia/Ulaanbaatar"
+	},
+	{
+		"code": "BN",
+		"zone_name": "Asia/Jakarta"
+	},
+	{
+		"code": "GT",
+		"zone_name": "Asia/Jakarta"
+	},
+	{
+		"code": "HC",
+		"zone_name": "Asia/Ho_Chi_Minh"
+	},
+	{
+		"code": "JA",
+		"zone_name": "Asia/Jakarta"
+	},
+	{
+		"code": "MK",
+		"zone_name": "Asia/Bangkok"
+	},
+	{
+		"code": "PN",
+		"zone_name": "Asia/Phnom_Penh"
+	},
+	{
+		"code": "PT",
+		"zone_name": "Asia/Pontianak"
+	},
+	{
+		"code": "SL",
+		"zone_name": "Asia/Jakarta"
+	},
+	{
+		"code": "PY",
+		"zone_name": "Asia/Yangon"
+	},
+	{
+		"code": "YN",
+		"zone_name": "Asia/Yangon"
+	},
+	{
+		"code": "AL",
+		"zone_name": "Asia/Almaty"
+	},
+	{
+		"code": "BI",
+		"zone_name": "Asia/Bishkek"
+	},
+	{
+		"code": "DH",
+		"zone_name": "Asia/Dhaka"
+	},
+	{
+		"code": "SH",
+		"zone_name": "Asia/Kolkata"
+	},
+	{
+		"code": "KA",
+		"zone_name": "Asia/Kathmandu"
+	},
+	{
+		"code": "AZ",
+		"zone_name": "Asia/Kolkata"
+	},
+	{
+		"code": "CL",
+		"zone_name": "Asia/Colombo"
+	},
+	{
+		"code": "JG",
+		"zone_name": "Asia/Kolkata"
+	},
+	{
+		"code": "PU",
+		"zone_name": "Asia/Kolkata"
+	},
+	{
+		"code": "DU",
+		"zone_name": "Asia/Dushanbe"
+	},
+	{
+		"code": "LA",
+		"zone_name": "Asia/Karachi"
+	},
+	{
+		"code": "BA",
+		"zone_name": "Asia/Baku"
+	},
+	{
+		"code": "MU",
+		"zone_name": "Indian/Mauritius"
+	},
+	{
+		"code": "TB",
+		"zone_name": "Asia/Tbilisi"
+	},
+	{
+		"code": "YE",
+		"zone_name": "Asia/Yerevan"
+	},
+	{
+		"code": "AD",
+		"zone_name": "Africa/Addis_Ababa"
+	},
+	{
+		"code": "JI",
+		"zone_name": "Africa/Kampala"
+	},
+	{
+		"code": "KP",
+		"zone_name": "Africa/Kampala"
+	},
+	{
+		"code": "KT",
+		"zone_name": "Africa/Nairobi"
+	},
+	{
+		"code": "MB",
+		"zone_name": "Africa/Kampala"
+	},
+	{
+		"code": "MO",
+		"zone_name": "Africa/Dar_es_Salaam"
+	},
+	{
+		"code": "NA",
+		"zone_name": "Africa/Nairobi"
+	},
+	{
+		"code": "NM",
+		"zone_name": "Africa/Nairobi"
+	},
+	{
+		"code": "SS",
+		"zone_name": "Africa/Juba"
+	},
+	{
+		"code": "TN",
+		"zone_name": "Indian/Antananarivo"
+	},
+	{
+		"code": "TU",
+		"zone_name": "Europe/Moscow"
+	},
+	{
+		"code": "BE",
+		"zone_name": "Asia/Beirut"
+	},
+	{
+		"code": "BJ",
+		"zone_name": "Africa/Bujumbura"
+	},
+	{
+		"code": "BT",
+		"zone_name": "Africa/Blantyre"
+	},
+	{
+		"code": "BU",
+		"zone_name": "Europe/Bucharest"
+	},
+	{
+		"code": "CH",
+		"zone_name": "Europe/Chisinau"
+	},
+	{
+		"code": "CT",
+		"zone_name": "Africa/Johannesburg"
+	},
+	{
+		"code": "KB",
+		"zone_name": "Africa/Lusaka"
+	},
+	{
+		"code": "KG",
+		"zone_name": "Africa/Kigali"
+	},
+	{
+		"code": "KV",
+		"zone_name": "Europe/Kiev"
+	},
+	{
+		"code": "PL",
+		"zone_name": "Europe/Sofia"
+	},
+	{
+		"code": "TV",
+		"zone_name": "Asia/Jerusalem"
+	},
+	{
+		"code": "WN",
+		"zone_name": "Africa/Windhoek"
+	},
+	{
+		"code": "AC",
+		"zone_name": "Europe/Paris"
+	},
+	{
+		"code": "AG",
+		"zone_name": "Europe/Rome"
+	},
+	{
+		"code": "BD",
+		"zone_name": "Europe/Budapest"
+	},
+	{
+		"code": "BO",
+		"zone_name": "Europe/Rome"
+	},
+	{
+		"code": "CA",
+		"zone_name": "Europe/Rome"
+	},
+	{
+		"code": "CO",
+		"zone_name": "Europe/Paris"
+	},
+	{
+		"code": "DA",
+		"zone_name": "Europe/Berlin"
+	},
+	{
+		"code": "FI",
+		"zone_name": "Europe/Rome"
+	},
+	{
+		"code": "FO",
+		"zone_name": "Europe/Rome"
+	},
+	{
+		"code": "GA",
+		"zone_name": "Europe/Rome"
+	},
+	{
+		"code": "GO",
+		"zone_name": "Europe/Stockholm"
+	},
+	{
+		"code": "HA",
+		"zone_name": "Europe/Paris"
+	},
+	{
+		"code": "HU",
+		"zone_name": "Africa/Luanda"
+	},
+	{
+		"code": "LG",
+		"zone_name": "Africa/Lagos"
+	},
+	{
+		"code": "LJ",
+		"zone_name": "Europe/Ljubljana"
+	},
+	{
+		"code": "OS",
+		"zone_name": "Europe/Oslo"
+	},
+	{
+		"code": "PA",
+		"zone_name": "Europe/Paris"
+	},
+	{
+		"code": "PM",
+		"zone_name": "Europe/Rome"
+	},
+	{
+		"code": "PR",
+		"zone_name": "Europe/Prague"
+	},
+	{
+		"code": "RO",
+		"zone_name": "Europe/Rome"
+	},
+	{
+		"code": "SA",
+		"zone_name": "Europe/Paris"
+	},
+	{
+		"code": "SG",
+		"zone_name": "Europe/Madrid"
+	},
+	{
+		"code": "SI",
+		"zone_name": "Europe/Rome"
+	},
+	{
+		"code": "ST",
+		"zone_name": "Europe/Stockholm"
+	},
+	{
+		"code": "TI",
+		"zone_name": "Europe/Tirane"
+	},
+	{
+		"code": "VE",
+		"zone_name": "Europe/Rome"
+	},
+	{
+		"code": "VI",
+		"zone_name": "Europe/Vienna"
+	},
+	{
+		"code": "WA",
+		"zone_name": "Europe/Warsaw"
+	},
+	{
+		"code": "YA",
+		"zone_name": "Africa/Douala"
+	},
+	{
+		"code": "ZA",
+		"zone_name": "Europe/Zagreb"
+	},
+	{
+		"code": "AB",
+		"zone_name": "Africa/Abidjan"
+	},
+	{
+		"code": "BR",
+		"zone_name": "Europe/London"
+	},
+	{
+		"code": "DK",
+		"zone_name": "Africa/Dakar"
+	},
+	{
+		"code": "LS",
+		"zone_name": "Europe/Lisbon"
+	},
+	{
+		"code": "MN",
+		"zone_name": "Africa/Monrovia"
+	},
+	{
+		"code": "OU",
+		"zone_name": "Africa/Ouagadougou"
+	},
+	{
+		"code": "VV",
+		"zone_name": "Africa/Accra"
+	},
+	{
+		"code": "RI",
+		"zone_name": "America/Sao_Paulo"
+	},
+	{
+		"code": "SP",
+		"zone_name": "America/Sao_Paulo"
+	},
+	{
+		"code": "AP",
+		"zone_name": "America/Argentina/Cordoba"
+	},
+	{
+		"code": "SJ",
+		"zone_name": "America/Puerto_Rico"
+	},
+	{
+		"code": "EQ",
+		"zone_name": "America/Guayaquil"
+	},
+	{
+		"code": "GC",
+		"zone_name": "America/New_York"
+	},
+	{
+		"code": "HV",
+		"zone_name": "America/Havana"
+	},
+	{
+		"code": "MI",
+		"zone_name": "America/New_York"
+	},
+	{
+		"code": "GU",
+		"zone_name": "America/Guatemala"
+	},
+	{
+		"code": "UM",
+		"zone_name": "America/Monterrey"
+	},
+	{
+		"code": "HL",
+		"zone_name": "America/Phoenix"
+	},
+	{
+		"code": "SC",
+		"zone_name": "America/Los_Angeles"
+	},
+	{
+		"code": "SD",
+		"zone_name": "America/Los_Angeles"
+	},
+	{
+		"code": "SK",
+		"zone_name": "America/Los_Angeles"
+	},
+	{
+		"code": "PP",
+		"zone_name": "Pacific/Tahiti"
+	}
+]
