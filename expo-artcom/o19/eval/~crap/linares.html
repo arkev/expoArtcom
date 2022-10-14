@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <title>Search bar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="eval2.css">
+    <style>
+    html, body{margin: 0;padding: 0;background-color: black;}
+    
+      /*Search input
+      **************************/
+      .eval_linares .agregador{padding:2em 0;text-align:center;}
+      .eval_linares .agregador input[type=text]{
+        font: 1.4em/1 "PT Sans Caption",Arial,Helvetica, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        background-color: rgba(255,255,255,.1);
+        color: rgba(230,230,230,1);
+        width: 94px;
+        border: 1px solid rgba(179,179,179,1);
+        padding-left: 0.2em;
+        margin-left: -.5em;
+        -webkit-font-smoothing: antialiased;
+        outline: none;
+      }
+      input[type=text]:focus{}
+      ::-webkit-input-placeholder{text-align:center;}
+      :-moz-placeholder{text-align:center;}
+      input[type=submit] {
+        margin-left: 1em;
+        color: #fff;
+        background-color: rgba(0,113,187,0);
+        font-family: "PT Sans",Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 1em;
+/*        margin-bottom: .21428571428571428571em;*/
+        border: 1px solid ;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -webkit-font-smoothing: antialiased;
+        vertical-align:center;
+        line-height: 1.4;
+      }
+      
+    </style>
+  </head>
+  <body>
+<form class="eval_linares">
+    <div class="agregador">
+      <label for="proyecto_id">Nº</label><input type="text" pattern="[0-9]*" name="proyecto_id" value="" id="proyecto_id" placeholder="Nº"> <input type="submit" name="" value="Agregar" id="add_btn">
+    </div><!-- .agregador -->
+    <!-- <div id="agregador" class="agregador">
+          </div> -->
+</form>
+
+
+</body>
+</html>

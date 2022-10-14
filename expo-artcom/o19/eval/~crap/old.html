@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <meta name="author" content="Robert Valencia">
+    <style> html, body{
+      margin: 0;padding: 0;
+      background-color: #000;
+      font-family:"PTSans-Regular",Verdana, Arial, Helvetica, sans-serif;
+      color:#fff;-webkit-font-smoothing:antialiased;
+    } 
+      
+    header{
+      margin: 0;
+      padding: 0;
+      height:34px;
+      background-color: rgba(83,83,83,1);} 
+    
+    header h1, header p{margin:0;padding: 0;} 
+    
+    header p{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size:12px;
+    } 
+    
+    header h1{
+      font-weight: normal;
+      text-align: center;
+      font-size:18px;
+      line-height: 2;
+    } 
+    
+    .nav dl{
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      position:relative;} 
+    
+    .nav dd{
+      display: inline;
+      margin: 0;
+      padding: 0;
+      position: absolute;}
+
+    .nav .materia{left: 10px;} 
+    
+    .nav .meta{right:10px;} 
+    
+    section{}
+    
+    .results{padding-top: 10px;} 
+    
+    .results dd{margin: 0;padding: 0;} 
+    
+    .results dl{
+      width: 106px;
+      height: 106px;
+      position: relative;
+      overflow: hidden;
+      float:left;
+    } 
+    
+    .results dl+dl{padding-left: 1px;} 
+    
+    .results .obra_id{display: none;}
+
+    .results .titulo, .results .autor{
+      height: 1em;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      width: auto;
+      position: absolute;
+      z-index:4;
+      padding-left: 5px;
+    } 
+    
+    .results .titulo{
+      top:70px; 
+      text-shadow: 1px 1px 1px
+      rgba(0,0,0,1);
+    } 
+      
+    .results .autor{
+      font-style: italic;
+      font-size: 12px;top:88px;
+      text-shadow: 1px 1px 1px 
+      rgba(0,0,0,1);
+    } 
+    
+    .results .imagen{
+      position:absolute;
+      z-index: 0;
+      top: 0px;
+      left: 0px;} 
+      
+    .results .imagen:before{
+      height:106px;
+      width:106px;
+      background-color: pink;
+      z-index: 1px;
+      position: absolute;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p>Inicio</p>
+      <h1>Evaluar materias</h1>
+    </header>
+    <section class="nav">
+      <dl>
+        <dd class="materia">Identidad corporativa</dd>
+        <dd class="meta">20 proyectos</dd>
+      </dl>
+    </section>
+    <section class="results">
+      <dl>
+        <dt id="obra_id_135" class="obra_id">135</dt>
+        <dd class="titulo">Confesiones de una locadicta de compras</dd>
+        <dd class="autor">G. Ramírez</dd>
+        <dd class="imagen"><img src="http://lab.local/slir/w106-h106-c1x1/slir-test-images/0c10fb654d880ecc4e54062230b4954a.JPG"></dd>
+        
+      </dl>
+      <dl>
+        <dt class="obra_id">136</dt>
+        <dd class="titulo">Autoretrato</dd>
+        <dd class="autor">A. Gil, E. He…</dd>
+        <dd class="imagen"><img src="http://lab.local/slir/w106-h106-c1x1/slir-test-images/0cc1a8d2c33b8ad294d3ecbd6a459c6d.JPG"></dd>
+      </dl>
+      
+      <dl>
+        <dt class="obra_id">137</dt>
+        <dd class="titulo">Cacaranúa</dd>
+        <dd class="autor">N. Hernández</dd>
+        <dd class="imagen"><img src="http://lab.local/slir/w106-h106-c1x1/slir-test-images/1bf0bf30ddf74cfd71445b52c540009b.JPG"></dd>
+      </dl>
+      
+      <dl>
+        <dt class="obra_id">138</dt>
+        <dd class="titulo">La circumflexión</dd>
+        <dd class="autor">I. Gallardo, D…</dd>
+        <dd class="imagen"><img src="http://lab.local/slir/w106-h106-c1x1/slir-test-images/252343354ca5c84f0f96d61ef436843f.jpg"></dd>
+      </dl>
+      
+      <dl>
+        <dt class="obra_id">139</dt>
+        <dd class="titulo">No Name</dd>
+        <dd class="autor">Germán Domínguez</dd>
+        <dd class="imagen"><img src="http://lab.local/slir/w106-h106-c1x1/slir-test-images/0d911be178fa413f2a414476003931c4.jpg"></dd>
+      </dl>
+    </section>
+  </body>
+</html>

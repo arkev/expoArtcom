@@ -1,0 +1,90 @@
+@import url('../webfonts/stylesheet.css');
+
+/*body{background:limegreen}*/
+
+
+/* Mobile */
+@media screen and (max-device-width: 480px),screen and (max-width: 600px) {
+  /* iOS and Windows Mobile font-size changes make the robot cry and SMASH */
+  html{-ms-text-size-adjust:none;-webkit-text-size-adjust:none;}
+}
+/* Tablet */
+@media screen and (min-width: 600px), screen and (max-width: 800px){
+}
+/* Desktop */
+@media screen and (min-width: 800px) {
+  body{margin: 0;padding: 0;}
+  #main {
+    z-index: -3000;
+    width: 32280px;
+    position: absolute;
+    padding-top: 1em;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.00, rgba(255,255,255,.0)),
+        color-stop(0.005, rgba(255,255,255,1))
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgba(255,255,255,.0) 0%,
+        rgba(255,255,255,1) 5%
+    );  }
+  
+  }
+  header{z-index: 1000;background: white url() no-repeat;position:fixed;width: 100%;border-bottom: 1px solid white;-moz-box-shadow: 0 0 2px rgba(0, 0, 0, .52);-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .52);-box-shadow: 0 0 2px rgba(0, 0, 0, .52);}
+  h1{font-family: "DekarLightRegular", "HelveticaNeue-UltraLight", Helvetica, sans-serif;font-size: 1.7em;font-weight: normal;line-height: 1; margin-top:10px; margin-left: 10px;/*position:fixed;top:8px;left:8px;*/margin-bottom: 5px;}
+  h1 .year{font-family: "DekarRegular",sans-serif;font-size: .7em;letter-spacing: .15em;}
+  h1 .semester:before{content:'· ';font-family: "HelveticaNeue-UltraLight", sans-serif;font-weight: normal;font-size: .8em;}
+/*  h1:before{content:url(../../images/tags-bowtie.svg); padding-right: 3px;}*/
+  .slide {
+    font: 100%/1.5 "Calibri",sans-serif;
+    width: 360px;
+    float: left;
+    min-height: 200px;
+/*    margin-right: 20px;*/
+/*    margin-left: 10px;*/
+    margin-top: 2.4em;
+    padding: 0 10px 0;
+  }
+  
+  .slide{opacity:0.3;}
+  .slide.active{opacity:1}
+  .slide.last{visibility:hidden}
+  
+  
+  .slide .project-info{z-index: 500;position:relative;width: 360px;}
+  .slide .project-info h2{margin: 0;padding: 10px;font-weight: normal;font-family: "M1cregular",sans-serif;font-size: 1em;height: 3em;}
+  .slide .project-info h2 span{font-family: "M1clight", Verdana, Arial, Helvetica, sans-serif;font-weight: normal;font-size: .8em;letter-spacing: .1em;}
+  .slide.active .project-info:hover h2{-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, .52);-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, .52);-box-shadow: 0px 1px 2px rgba(0, 0, 0, .52);}
+  .slide .project-info .meta{display: none;position:absolute;background:white;padding: 0 10px 10px 10px;border-bottom: 1px solid gray;-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, .52);-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, .52);-box-shadow: 0px 2px 2px rgba(0, 0, 0, .52);width: 340px;}
+  .slide.active .project-info:hover .meta{display: block;}
+  dl{margin: 0;}
+  dt{font-family: "M1cregular",sans-serif;letter-spacing: .1em;color: #bbb;margin: 0;font-size: .7em;text-transform: uppercase;}
+  dd+dt{margin-top: 1em;}
+/*  dt:hover{color: black;}*/
+  dt span{padding: .5em 3em .5em .5em ;background-color: #E6F0FF;border-radius:4px}
+  dd{margin-left: 0;}
+  dd.titulo{font-size: 1.5em;margin: 0;line-height: 1.3;}
+  dd.autores{font-family: "M1cregular", Calibri,sans-serif;color: #333;}
+  dd.materia{color: #333;font-family: "M1clight",sans-serif;}
+/*  dd.materia:hover{color: #999;}*/
+  dd.specs{}
+  dd.description{}
+  .slide .socialnetworks{opacity:0}
+  .slide.active .socialnetworks{opacity:.6;padding-top: .5em;padding-bottom: .5em;text-align: right;}
+  .slide.active .socialnetworks:hover{opacity:1;}
+  
+  .twitter-share-button{width: 118px;height: 20px;float: left;}
+  fb:like{float: left;}
+  
+  img{width: 100%;}
+  audio,video{z-index: 0;position:relative;width: 100%;}
+/*  .slide:nth-child(1){background:#ccc}
+  .slide:nth-child(2){background:#bbb}
+  .slide:nth-child(3){background:#aaa}
+  .slide:nth-child(4){background:#999}
+  .slide:nth-child(5){background:#888}
+  .slide:nth-child(6){background:#777}
+*/}

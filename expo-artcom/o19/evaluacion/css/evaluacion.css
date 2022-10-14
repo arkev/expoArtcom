@@ -1,0 +1,84 @@
+/**
+* Sistema de evaluación VIP
+* @author Robert Valencia (http://robertvalencia)
+* @autor Gabriel Trisca (http://tog000.com.ar)
+* @version 1.0
+* @datetime 2012-05-14T16:37:19-0500
+*/
+
+/**
+* Primero importamos las fuentes que vamos a usar
+*/
+@import url('../../css/PTSansWeb/stylesheet.css');
+
+/**
+* Elementos comunes
+*/
+body{font: 1em/1.5 "PT Sans",Arial, Helvetica, sans-serif;margin: 0 1.25em;padding: 0;}
+#container{max-width: 480px;min-width: 320px;margin: 0 auto;}
+header{background:url('img/sistema-de-evaluacion-header.png') no-repeat top center;margin-top:1em;padding-top:2em;}
+header h2{text-align: center;}
+h1{display: none;}
+h2{font-weight: normal;color: rgba(122,122,122,1);}
+#main{}
+footer p{font: .6875em/1.3em Arial,Helvetica, sans-serif !important;color: #DDD;}
+footer p a{text-decoration: none;color: inherit;}
+footer p a:hover{text-decoration: underline;}
+
+/* Componentes */
+.texto_grande{font-size:1.875em;}
+.texto_peque{font-size: .75em !important;font-family: "PT Sans Caption", Arial, Helvetica, sans-serif;}
+.azul{color:rgba(0,113,187,1);}
+
+
+/**
+* Panel de inicio
+*/
+BODY#bienvenida{text-align: center;}
+.bienvenida{color: rgba(0,113,187,1);font-family: "PT Sans Caption",Arial, Helvetica, sans-serif;font-weight: bold;font-size: 1.9375em;}
+
+/**
+* Panel de votación exitosa
+*/
+BODY#exito{text-align: center;}
+#exito p{color:rgba(152,152,152,1);font-size:1.375em;}
+
+/**
+* Sistema
+*/
+
+BODY#evaluacion{}
+#evaluacion p{font-size:1.375em;}
+.agregador{background-color: rgba(241,241,241,1);margin-bottom: .75em;padding: .75em 0;text-align: center;position:relative;}
+.agregador label{font-size: 2.5625em;font-weight: bold;-webkit-font-smoothing: antialiased;}
+input[type="text"]{font: 2.5625em/1 "PT Sans Caption",Arial,Helvetica, sans-serif;font-weight: bold;color:rgba(0,113,187,1);width: 94px;border: 1px solid rgba(179,179,179,1);padding-left: 0.2em;border-radius: 4px;-webkit-border-radius:4px;margin-left: .2em;-webkit-font-smoothing: antialiased;}
+input[type="text"]:focus{border: none ;}
+input[type="submit"]{color: #fff;background-color: rgba(0,113,187,1);font-family: "PT Sans",Arial, Helvetica, sans-serif;font-weight: bold;font-size: 2em;border:none;margin-bottom: .21428571428571428571em;border-radius: 4px;-webkit-border-radius:4px;-webkit-font-smoothing: antialiased;}
+input[type="submit"]:hover{background-color: rgba(125,0,255,1);}
+input[type="submit"]:focus{}
+
+a.button{width:100%;text-decoration:none;display:block;color: #fff;background-color: rgba(0,113,187,1);font-family: "PT Sans",Arial, Helvetica, sans-serif;font-weight: bold;font-size: 2em;border:none;margin-bottom: .21428571428571428571em;border-radius: 4px;-webkit-border-radius:4px;-webkit-font-smoothing: antialiased;}
+a.button:hover{background-color: rgba(125,0,255,1);}
+
+#guardar{width: 100%;}
+.guardar{margin-bottom: 2em;}
+/**
+* Plantilla para objeto de proyectos 
+*/
+.proyecto{position: relative;margin: .75em 0;padding: 0;border-radius:4px;background-color: rgba(244,249,249,1);border: 1px solid rgba(0,113,187,.2);height: 80px;overflow:hidden}
+dt{position: absolute;z-index: 300;text-align: center;background-color: #ddd;border-top-left-radius:3px;padding: 0 3px;font-weight: bold;}
+.thumbnail{z-index: -300;margin-left: 0;float: left;}
+img{border-bottom-left-radius:3px;border-top-left-radius:3px;}
+.proyecto{font-family: "PT Sans",Arial, Helvetica, sans-serif;font-size: 1em;}
+.titulo{font-weight: bold;font-size: 1.125em;line-height: 1.33333333333333333333;margin-top: .4em;}
+.autores{font-size: .9375em;line-height: 1.2;margin: .1em 0;height:1.2em;}
+.materias{font-size: .75em;text-transform: uppercase;line-height: 1.5;padding-bottom: 1em;}
+.votos{text-align:center;font-size: 2em;text-transform: uppercase;line-height: 2.5;position:absolute;right:0px;padding:10px;}
+.votos small{font-size:11px;}
+.titulo, .autores, .materias{margin-left:90px ;margin-right: 15px;text-shadow: 0 1px 1px white;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+i{position:absolute;top:1px;right:6px;margin: 0;padding: 0;line-height: 1;font-weight: bold;font-size: 1.125em;}
+i > a{text-decoration: none;color: inherit;}
+dd > span{display: none;}
+dd > span:after{content:'…';}
+
+/** The end **/
